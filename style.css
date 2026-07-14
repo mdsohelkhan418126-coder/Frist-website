@@ -460,3 +460,77 @@
   margin: 10px 0;
   color: #00000091;
 }
+/* Contact section */
+.Contact-container {
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.from-parent {
+  background-color: #eaecf0;
+  display: flex;
+}
+.fulname-email-parent {
+  display: flex;
+}
+
+.fulname-email-parent input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin: 0 20px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.subject-input {
+  width: 85%;
+  height: 40px;
+  margin: 0 20px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+.subject-input-text {
+  margin: 20px 20px 10px 20px;
+}
+.fulname-email-parent h4 {
+  margin: 40px 20px 10px 20px;
+}
+.from-tag {
+  width: 600px;
+}
+.from-textarea {
+  width: 85%;
+  height: 100px;
+  border: none;
+  outline: none;
+  margin: 0 20px;
+  padding: 5px 10px;
+}
+.from-button {
+  background-color: #3252af;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0 0 20px;
+}
+.location-parent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.single-address {
+  text-align: center;
+}
+.single-address i {
+  background-color: #3252af;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.single-address span {
+  font-weight: bold;
+}
